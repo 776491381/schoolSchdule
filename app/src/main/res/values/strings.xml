@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SchoolSchdule</string>
+    <string-array name="week_name">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string name="menu_add">Add a Course</string>
+    <string name="menu_add_from_scan">Add Course From Scan</string>
+    <string name="menu_sync">Sync with watch</string>
+    <string name="menu_about">About</string>
+
+    <string name="course_add_title">Please Input a Course</string>
+    <string name="course_add_confirm">ADD</string>
+    <string name="course_add_cancel">CANCEL</string>
+    <string name="course_add_save">SAVE</string>
+    <string name="course_add_name">Course Name</string>
+    <string name="course_add_classroom">Course Classroom</string>
+    <string name="course_add_start">Course Start</string>
+    <string name="course_add_last">Course Last</string>
+    <string name="course_add_day">Course Day in One Week</string>
+
+    <string name="course_add_success">Course Add Success!</string>
+    <string name="course_delete_success">Course Deleted Success!</string>
+    <string name="course_edit_success">Course Edited Success!</string>
+
+    <string name="course_syncing">Syncing</string>
+    <string name="course_sync_success">Synced Success</string>
+    <string name="course_sync_fail">Synced Failed</string>
+
+    <string name="list_edit">Edit</string>
+    <string name="list_delete">Delete</string>
+
+    <string name="not_found_scanner">Please Install "Barcode Scanner" to Scan</string>
+
+    <string name="about_title">About</string>
+    <string name="about_text">Lite Course Schedule, Very Lite, Just Lite. Welcome to report issue.</string>
+    <string name="course_scan_failed">Course Scan Failed</string>
+    <string name="course_time_am">AM</string>
+    <string name="course_time_pm">PM</string>
+    <string name="course_del_confirm">Press DELETE to delette</string>
+    <string name="course_long_del">Delete this course?</string>
+</resources>
