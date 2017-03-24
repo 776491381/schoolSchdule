@@ -196,7 +196,7 @@
         app:layout_anchor="@id/collapsing_toolbar"
         app:layout_anchorGravity="bottom|right"
         app:pressedTranslationZ="12dp"
-        app:backgroundTint="#30469b"
+        app:backgroundTint="#388E3C"
         app:rippleColor="#a6a6a6"
         />
 </android.support.design.widget.CoordinatorLayout>

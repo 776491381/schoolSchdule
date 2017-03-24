@@ -127,25 +127,25 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.BaseViewHo
                 _course = course;
                 dayClasses = CourseList.getInstance().indexOf(course);
                 if(timeProcess(course)){
-                    processBar.setBackgroundColor(Color.parseColor("#3F51B5"));
-                    linearLayout.setBackgroundColor(Color.parseColor("#00BFFF"));
-                    startTime.setTextColor(Color.parseColor("#FFFFFF"));
-                    name.setTextColor(Color.parseColor("#FFFFFF"));
-                    endTime.setTextColor(Color.parseColor("#FFFFFF"));
-                    info.setTextColor(Color.parseColor("#FFFFFF"));
-                }else {
-                    processBar.setBackgroundColor(Color.parseColor("#3F51B5"));
-                    linearLayout.setBackgroundColor(Color.parseColor("#F3F3F3"));
+                    processBar.setBackgroundColor(Color.parseColor("#388E3C"));
+                    linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
                     startTime.setTextColor(Color.parseColor("#A9A9A9"));
-                    name.setTextColor(Color.parseColor("#3F51B5"));
+                    name.setTextColor(Color.parseColor("#A9A9A9"));
                     endTime.setTextColor(Color.parseColor("#A9A9A9"));
-                    info.setTextColor(Color.parseColor("#3F51B5"));
+                    info.setTextColor(Color.parseColor("#A9A9A9"));
+                }else {
+                    processBar.setBackgroundColor(Color.parseColor("#388E3C"));
+                    linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                    startTime.setTextColor(Color.parseColor("#000000"));
+                    name.setTextColor(Color.parseColor("#000000"));
+                    endTime.setTextColor(Color.parseColor("#000000"));
+                    info.setTextColor(Color.parseColor("#000000"));
                 }
 
             }
             else {
-                processBar.setBackgroundColor(Color.parseColor("#D3D3D3"));
-                linearLayout.setBackgroundColor(Color.parseColor("#F3F3F3"));
+                processBar.setBackgroundColor(Color.parseColor("#607D8B"));
+                linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
                 startTime.setTextColor(Color.parseColor("#A9A9A9"));
                 name.setTextColor(Color.parseColor("#A9A9A9"));
                 endTime.setTextColor(Color.parseColor("#A9A9A9"));
