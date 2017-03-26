@@ -40,7 +40,7 @@
     <string name="not_found_scanner">请安装 "Barcode Scanner" 扫描二维码</string>
 
     <string name="about_title">关于</string>
-    <string name="about_text">轻课程表, 轻, 仅仅是轻. 欢迎反馈问题.</string>
+    <string name="about_text">很小的课程表，欢迎反馈问题</string>
     <string name="course_scan_failed">课程扫描失败！</string>
     <string name="course_time_am">上午</string>
     <string name="course_time_pm">下午</string>

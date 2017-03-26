@@ -39,7 +39,7 @@
     <string name="not_found_scanner">Please Install "Barcode Scanner" to Scan</string>
 
     <string name="about_title">About</string>
-    <string name="about_text">Lite Course Schedule, Very Lite, Just Lite. Welcome to report issue.</string>
+    <string name="about_text">A little SchoolSchedule, Welcome to report issue.</string>
     <string name="course_scan_failed">Course Scan Failed</string>
     <string name="course_time_am">AM</string>
     <string name="course_time_pm">PM</string>
