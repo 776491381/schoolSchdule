@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         courseView.setLayoutManager(new LinearLayoutManager(this));
         courseView.setAdapter(courseAdapter);
 
-        courseView.scrollToPosition(nowCourse+1);
+        courseView.scrollToPosition(nowCourse);
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {

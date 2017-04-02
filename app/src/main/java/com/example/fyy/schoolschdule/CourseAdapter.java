@@ -129,17 +129,17 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.BaseViewHo
                 if(timeProcess(course)){
                     processBar.setBackgroundColor(Color.parseColor("#388E3C"));
                     linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
-                    startTime.setTextColor(Color.parseColor("#A9A9A9"));
-                    name.setTextColor(Color.parseColor("#A9A9A9"));
-                    endTime.setTextColor(Color.parseColor("#A9A9A9"));
-                    info.setTextColor(Color.parseColor("#A9A9A9"));
-                }else {
-                    processBar.setBackgroundColor(Color.parseColor("#388E3C"));
-                    linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
                     startTime.setTextColor(Color.parseColor("#000000"));
                     name.setTextColor(Color.parseColor("#000000"));
                     endTime.setTextColor(Color.parseColor("#000000"));
                     info.setTextColor(Color.parseColor("#000000"));
+                }else {
+                    processBar.setBackgroundColor(Color.parseColor("#388E3C"));
+                    linearLayout.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                    startTime.setTextColor(Color.parseColor("#A9A9A9"));
+                    name.setTextColor(Color.parseColor("#A9A9A9"));
+                    endTime.setTextColor(Color.parseColor("#A9A9A9"));
+                    info.setTextColor(Color.parseColor("#A9A9A9"));
                 }
 
             }
